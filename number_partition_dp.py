@@ -51,7 +51,7 @@ def sum_up(A):
 
 
 if __name__ == '__main__':
-    A = [2, 1, 23, 4, 7, 3, 3]
+    A = [2, 12, 2, 6, 8, 15, 9]
     print(f'Sum: {sum_up(A)}')
     b = sum_up(A)
     D, C, K, u = number_partition_dp(A, b)
