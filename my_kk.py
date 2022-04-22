@@ -80,4 +80,5 @@ if __name__ == '__main__':
         a.append(random.randint(1, 10 ** 12))
 
     print(repeated_random_std(a))
+    print('new')
 
